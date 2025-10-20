@@ -1,4 +1,4 @@
-# 🧠 TextEraserAI — Automatic Text Removal for Manga Translation 📚
+# 🧠 MangaTextEraser — Automatic Text Removal for Manga Translation 📚
 
 [![YOLOv5](https://img.shields.io/badge/Model-YOLOv5-orange.svg)](https://github.com/ultralytics/yolov5)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
@@ -8,7 +8,7 @@
 ---
 
 ## 📖 Overview
-**TextEraserAI** is an **AI-powered tool** that automatically detects and removes dialogue text from manga or comic panels, making the translation workflow faster and easier.  
+**MangaTextEraser** is an **AI-powered tool** that automatically detects and removes dialogue text from manga or comic panels, making the translation workflow faster and easier.  
 Instead of relying on OCR-based text recognition, our model focuses on detecting **speech bubble text regions** directly using **YOLOv5**, improving speed and reducing training complexity.
 
 ---
@@ -48,8 +48,8 @@ Instead of relying on OCR-based text recognition, our model focuses on detecting
 ## 💻 Quick Start
 ```bash
 # Clone repository
-git clone https://github.com/<your-username>/TextEraserAI.git
-cd TextEraserAI
+git clone https://github.com/lftroq/MangaTextEraser.git
+cd MangaTextEraser
 
 # Install dependencies
 pip install -r requirements.txt
